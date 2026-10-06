@@ -67,8 +67,15 @@ chroot "$LFS" /usr/bin/env -i   \
 For user root 
 use de password "root" to access
 
-User: Aluno
-password: senha123
+Set PATH
+```bash
+export PATH=/bin:/usr/bin:/sbin:/usr/sbin
+```
+Set the PATH on bashrc and profile
+```bash
+echo "export PATH=/bin:/usr/bin:/sbin:/usr/sbin" >> /root/.bashrc
+echo "export PATH=/bin:/usr/bin:/sbin:/usr/sbin" >> /etc/profile
+```
 
 # LFS Security Hardening & Permissions
 
