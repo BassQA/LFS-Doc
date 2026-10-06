@@ -1,7 +1,5 @@
 # LFS-Doc
 
-# How to Run LFS 
-
 # LFS Restoration Guide
 
 ### 1. Create and Format Partitions (Partitioning)
