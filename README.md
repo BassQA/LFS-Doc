@@ -64,7 +64,11 @@ chroot "$LFS" /usr/bin/env -i   \
 ```
 # First access
 
+For user root 
 use de password "root" to access
+
+User: Aluno
+password: senha123
 
 # LFS Security Hardening & Permissions
 
