@@ -62,6 +62,9 @@ chroot "$LFS" /usr/bin/env -i   \
     TESTSUITEFLAGS="-j$(nproc)" \
     /bin/bash --login
 ```
+# First access
+
+use de password "root" to access
 
 # LFS Security Hardening & Permissions
 
