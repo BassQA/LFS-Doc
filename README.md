@@ -84,6 +84,3 @@ chroot "$LFS" /usr/bin/env -i   \
 * **Instant Recovery:** Lets you roll back broken or accidentally edited files in seconds without needing system reinstalls.
 * **Integrity Baseline:** Provides a clean "checkpoint" of the system at delivery time.
 * **Security:** The `/etc/.git` folder is locked to `root:root` (`chmod 700`) to prevent unprivileged users from reading historical changes or secrets.
-
-cd /etc
-git status
