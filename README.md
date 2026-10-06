@@ -41,9 +41,9 @@ mount the virtual directories (`/dev`, `/proc`, `/sys`, `/run`), enter the isola
  
 ```bash
 mount -vt devpts devpts -o gid=5,mode=0620 $LFS/dev/pts
-mount -vt proc proc $LFS/proc
-mount -vt sysfs sysfs $LFS/sys
-mount -vt tmpfs tmpfs $LFS/run
+mount -vt proc proc mnt/lfs/proc
+mount -vt sysfs sysfs mnt/lfs/sys
+mount -vt tmpfs tmpfs mnt/lfs/run
 ```
 
 ```bash
